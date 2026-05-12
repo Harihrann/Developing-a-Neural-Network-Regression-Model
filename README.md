@@ -53,7 +53,6 @@ Use the trained model to predict  for a new input value .
 
 
 ### Name: Hariharan S
-
 ### Register Number: 212224040101
 
 
@@ -68,9 +67,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
-dataset1 = pd.read_csv('/content/drive/MyDrive/DL EXP-1 - Sheet1.csv')
-X = dataset1[['input']].values
-y = dataset1[['output']].values
+dataset1 = pd.read_csv('/content/drive/MyDrive/EXP FOR DL/exp 1 datasheet - Sheet1.csv')
+X = dataset1[['INPUT']].values
+y = dataset1[['OUTPUT']].values
 
 dataset1.head()
 
