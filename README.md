@@ -50,6 +50,13 @@ Evaluate the model with the testing data.
 Use the trained model to predict  for a new input value .
 
 ## PROGRAM
+
+
+### Name: Hariharan S
+
+### Register Number: 212224040101
+
+
 ```
 from google.colab import drive
 drive.mount('/content/drive')
@@ -137,26 +144,7 @@ print(f'Prediction: {prediction}')
 
 ```
 
-### Name: Hariharan S
 
-### Register Number: 212224040101
-
-```python
-class NeuralNet(nn.Module):
-    def __init__(self):
-        super().__init__()
-        #Include your code here
-
-
-
-# Initialize the Model, Loss Function, and Optimizer
-
-
-
-def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
-    #Include your code here
-
-```
 
 ### Dataset Information
 <img width="529" height="921" alt="image" src="https://github.com/user-attachments/assets/8feedc0f-f245-4c85-9837-b5dbeba38d3d" />
